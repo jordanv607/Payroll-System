@@ -1,0 +1,59 @@
+﻿@model IEnumerable<FrontEnd.Models.UsuarioViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Mantenimiento de Usuarios</h2>
+
+<p>
+    @Html.ActionLink("Crear Nuevo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idPersona)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.idRol)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.usuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.contrasenia)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.persona.numeroIdentificacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rol.nombreRol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.contrasenia)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.idUsuario }) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.idUsuario }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.idUsuario })
+            </td>
+        </tr>
+
+    }
+</table>
+@if(TempData["mensaje"]!= null)
+{
+<script type="text/javascript">
+        window.onload = function () {
+            alert("@TempData["mensaje"]")
+        };
+</script>
+}

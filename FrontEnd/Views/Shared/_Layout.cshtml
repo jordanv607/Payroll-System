@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Gestión planilla</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    
+        <nav class="navbar navbar-default" role="navigation">
+            <!-- El logotipo y el icono que despliega el menú se agrupan
+                 para mostrarlos mejor en los dispositivos móviles -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Desplegar navegación</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*<a class="navbar-brand" href="#">Gestión Planilla-Elite Seguridad</a>*@
+            </div>
+
+            <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                 otro elemento que se pueda ocultar al minimizar la barra -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">@Html.ActionLink("Inicio", "Index", "Home")</li>
+
+                    @if (User.IsInRole("Administrador"))
+                    {
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Parámetros <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Generales", "Index", "Parametro")</li>
+                                <li>@Html.ActionLink("Deducciones", "Index", "TipoDeduccion")</li>
+                                <li>@Html.ActionLink("Roles", "Index", "Rol")</li>
+                            </ul>
+                        </li>
+
+                    }
+                    @if (User.IsInRole("Administrador") || User.IsInRole("Planillero"))
+                    {
+                        <li>@Html.ActionLink("Personas", "Index", "Persona")</li>
+                        <li>@Html.ActionLink("Empleados", "Index", "Empleado")</li>
+                        if (User.IsInRole("Administrador"))
+                        {
+                            <li>@Html.ActionLink("Usuarios", "Index", "Usuario")</li>
+                        }
+                        <li>@Html.ActionLink("Planilla", "Index", "PagoEmpleados")</li>
+                        <li>@Html.ActionLink("Deducciones Planilla", "Index", "DeduccionEmpleado")</li>
+                    }
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Reportes <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Empleados con arma", "ReportEmpleadosConArma", "Reporte")</li>
+
+                            <li>@Html.ActionLink("Planillas", "Index", "Reporte")</li>
+                            <li>@Html.ActionLink("3", "Index", "Reportes")</li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    @*<li class="navbar-text">¡Hola, @User.Identity.Name!</li>*@
+                    <li>@Html.ActionLink("Cerrar Sesión", "Logout", "Login")</li>
+                </ul>
+            </div>
+        </nav>
+        
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Grupo Corporativo Elite Seguridad, Sistema Gestión de Planillas</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

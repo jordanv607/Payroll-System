@@ -1,0 +1,49 @@
+﻿@model FrontEnd.Models.DeduccionEmpleadoViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idEmpleado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idEmpleado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.idDeduccion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idDeduccion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.monto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.monto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaPago)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaPago)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.idDeduccionEmpleado }, new { @class = "btn btn-info" }) |
+    @Html.ActionLink("Regresar a la Lista", "Index", "Index", new { @class = "btn btn-default" })
+</p>

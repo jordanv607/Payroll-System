@@ -1,0 +1,42 @@
+﻿@model FrontEnd.Models.RolViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+   
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idRol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idRol)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nombreRol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombreRol)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcionRol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcionRol)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.idRol },new { @class = "btn btn-info" }) |
+    @Html.ActionLink("Regresar a la Lista", "Index", "Index", new { @class = "btn btn-default" })
+</p>

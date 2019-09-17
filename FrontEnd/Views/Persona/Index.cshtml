@@ -1,0 +1,97 @@
+﻿@model IEnumerable<FrontEnd.Models.PersonaViewModel>
+
+@{
+    ViewBag.Title = "Personas";
+}
+
+<h2>Mantenimiento de personas</h2>
+
+<p>
+    @Html.ActionLink("Crear nuevo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.numeroIdentificacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombrePersona)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.primerApellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.segundoApellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.genero)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.estado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nacionalidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.correoElectronico)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.telefono)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.direccionResidencia)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.numeroIdentificacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombrePersona)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.primerApellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.segundoApellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.generoObj.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.estadoObj.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nacionalidadObj.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.correoElectronico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.direccionResidencia)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.idPersona }) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.idPersona }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.idPersona }) |
+                @Html.ActionLink("Crear Empleado", "../Empleado/Create", new { id = item.idPersona })
+            </td>
+        </tr>
+    }
+
+</table>
+@if (TempData["mensaje"] != null)
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            alert("@TempData["mensaje"]")
+        };
+    </script>
+}

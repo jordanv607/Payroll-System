@@ -1,0 +1,17 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #ba071b;
+    height: 100vh;
+    //negro: #000000 / rojo #ba071b
+}
+
+    .login-div {
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+
+#footer {
+    color: #FFFAF0;
+}

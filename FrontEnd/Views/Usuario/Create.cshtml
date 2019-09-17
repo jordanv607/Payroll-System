@@ -1,0 +1,79 @@
+﻿@model FrontEnd.Models.UsuarioViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Crear</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.idPersona, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.idPersona, new SelectList(Model.Personas, "idPersona", "numeroIdentificacion"), "--Select--")
+                @Html.ValidationMessageFor(model => model.idPersona, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.idRol, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.idRol, new SelectList(Model.Roles, "idRol", "nombreRol"), "--Select--")
+                @Html.ValidationMessageFor(model => model.idRol, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.usuario, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.usuario, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.usuario, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.contrasenia, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.contrasenia, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.contrasenia, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+                @if (ViewBag.Message != null)
+                {
+                    <script type="text/javascript">
+        window.onload = function () {
+            alert("@ViewBag.Message")
+        };
+                    </script>
+                }
+            </div>
+        </div>
+    </div>
+}
+
+    <div>
+        @Html.ActionLink("Regresar a la Lista", "Index", "Index", new { @class = "btn btn-default" })
+    </div>
+@if (TempData["mensaje"] != null)
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            alert("@TempData["mensaje"]")
+        };
+    </script>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

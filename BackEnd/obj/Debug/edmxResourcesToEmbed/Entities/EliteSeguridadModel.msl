@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ELITE_SEGURIDADModelStoreContainer" CdmEntityContainer="BDContext">
+    <EntitySetMapping Name="DEDUCCIONES_EMPLEADOS">
+      <EntityTypeMapping TypeName="ELITE_SEGURIDADModel.DEDUCCIONES_EMPLEADOS">
+        <MappingFragment StoreEntitySet="DEDUCCIONES_EMPLEADOS">
+          <ScalarProperty Name="idDeduccionEmpleado" ColumnName="idDeduccionEmpleado" />
+          <ScalarProperty Name="idEmpleado" ColumnName="idEmpleado" />
+          <ScalarProperty Name="idDeduccion" ColumnName="idDeduccion" />
+          <ScalarProperty Name="monto" ColumnName="monto" />
+          <ScalarProperty Name="fechaPago" ColumnName="fechaPago" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMPLEADOS">
+      <EntityTypeMapping TypeName="ELITE_SEGURIDADModel.EMPLEADOS">
+        <MappingFragment StoreEntitySet="EMPLEADOS">
+          <ScalarProperty Name="idEmpleado" ColumnName="idEmpleado" />
+          <ScalarProperty Name="idPersona" ColumnName="idPersona" />
+          <ScalarProperty Name="departamento" ColumnName="departamento" />
+          <ScalarProperty Name="puesto" ColumnName="puesto" />
+          <ScalarProperty Name="salarioMensual" ColumnName="salarioMensual" />
+          <ScalarProperty Name="portacionArma" ColumnName="portacionArma" />
+          <ScalarProperty Name="vencimientoPermisoArma" ColumnName="vencimientoPermisoArma" />
+          <ScalarProperty Name="numeroCuentaBancaria" ColumnName="numeroCuentaBancaria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PAGO_EMPLEADOS">
+      <EntityTypeMapping TypeName="ELITE_SEGURIDADModel.PAGO_EMPLEADOS">
+        <MappingFragment StoreEntitySet="PAGO_EMPLEADOS">
+          <ScalarProperty Name="idPago" ColumnName="idPago" />
+          <ScalarProperty Name="idEmpleado" ColumnName="idEmpleado" />
+          <ScalarProperty Name="salarioBruto" ColumnName="salarioBruto" />
+          <ScalarProperty Name="totalDeducciones" ColumnName="totalDeducciones" />
+          <ScalarProperty Name="salarioNeto" ColumnName="salarioNeto" />
+          <ScalarProperty Name="fechaPago" ColumnName="fechaPago" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PARAMETROS">
+      <EntityTypeMapping TypeName="ELITE_SEGURIDADModel.PARAMETROS">
+        <MappingFragment StoreEntitySet="PARAMETROS">
+          <ScalarProperty Name="idParametro" ColumnName="idParametro" />
+          <ScalarProperty Name="tabla" ColumnName="tabla" />
+          <ScalarProperty Name="campo" ColumnName="campo" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERSONAS">
+      <EntityTypeMapping TypeName="ELITE_SEGURIDADModel.PERSONAS">
+        <MappingFragment StoreEntitySet="PERSONAS">
+          <ScalarProperty Name="idPersona" ColumnName="idPersona" />
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="nombrePersona" ColumnName="nombrePersona" />
+          <ScalarProperty Name="primerApellido" ColumnName="primerApellido" />
+          <ScalarProperty Name="segundoApellido" ColumnName="segundoApellido" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="nacionalidad" ColumnName="nacionalidad" />
+          <ScalarProperty Name="correoElectronico" ColumnName="correoElectronico" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccionResidencia" ColumnName="direccionResidencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROLES">
+      <EntityTypeMapping TypeName="ELITE_SEGURIDADModel.ROLES">
+        <MappingFragment StoreEntitySet="ROLES">
+          <ScalarProperty Name="idRol" ColumnName="idRol" />
+          <ScalarProperty Name="nombreRol" ColumnName="nombreRol" />
+          <ScalarProperty Name="descripcionRol" ColumnName="descripcionRol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_DEDUCCIONES">
+      <EntityTypeMapping TypeName="ELITE_SEGURIDADModel.TIPO_DEDUCCIONES">
+        <MappingFragment StoreEntitySet="TIPO_DEDUCCIONES">
+          <ScalarProperty Name="idDeduccion" ColumnName="idDeduccion" />
+          <ScalarProperty Name="nombreDeduccion" ColumnName="nombreDeduccion" />
+          <ScalarProperty Name="porcentaje" ColumnName="porcentaje" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOS">
+      <EntityTypeMapping TypeName="ELITE_SEGURIDADModel.USUARIOS">
+        <MappingFragment StoreEntitySet="USUARIOS">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="idPersona" ColumnName="idPersona" />
+          <ScalarProperty Name="idRol" ColumnName="idRol" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="contrasenia" ColumnName="contrasenia" />
+          <ScalarProperty Name="intentos_usuario" ColumnName="intentos_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_getRolesForUser" FunctionName="ELITE_SEGURIDADModel.Store.sp_getRolesForUser" />
+    <FunctionImportMapping FunctionImportName="sp_getUsuariosRole" FunctionName="ELITE_SEGURIDADModel.Store.sp_getUsuariosRole" />
+    <FunctionImportMapping FunctionImportName="sp_isUserInRole" FunctionName="ELITE_SEGURIDADModel.Store.sp_isUserInRole" />
+    <FunctionImportMapping FunctionImportName="sp_CalculoPlanilla" FunctionName="ELITE_SEGURIDADModel.Store.sp_CalculoPlanilla">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ELITE_SEGURIDADModel.sp_CalculoPlanilla_Result">
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="nombrePersona" ColumnName="nombrePersona" />
+          <ScalarProperty Name="primerApellido" ColumnName="primerApellido" />
+          <ScalarProperty Name="segundoApellido" ColumnName="segundoApellido" />
+          <ScalarProperty Name="correoElectronico" ColumnName="correoElectronico" />
+          <ScalarProperty Name="numeroCuentaBancaria" ColumnName="numeroCuentaBancaria" />
+          <ScalarProperty Name="salarioNeto" ColumnName="salarioNeto" />
+          <ScalarProperty Name="totalDeducciones" ColumnName="totalDeducciones" />
+          <ScalarProperty Name="salarioBruto" ColumnName="salarioBruto" />
+          <ScalarProperty Name="fechaPago" ColumnName="fechaPago" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_RetornaPortacionArma" FunctionName="ELITE_SEGURIDADModel.Store.sp_RetornaPortacionArma">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ELITE_SEGURIDADModel.sp_RetornaPortacionArma_Result">
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="nombrePersona" ColumnName="nombrePersona" />
+          <ScalarProperty Name="primerApellido" ColumnName="primerApellido" />
+          <ScalarProperty Name="segundoApellido" ColumnName="segundoApellido" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="portacionArma" ColumnName="portacionArma" />
+          <ScalarProperty Name="vencimientoPermisoArma" ColumnName="vencimientoPermisoArma" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_getEmpleadosActivos" FunctionName="ELITE_SEGURIDADModel.Store.sp_getEmpleadosActivos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ELITE_SEGURIDADModel.sp_getEmpleadosActivos_Result">
+          <ScalarProperty Name="idEmpleado" ColumnName="idEmpleado" />
+          <ScalarProperty Name="idPersona" ColumnName="idPersona" />
+          <ScalarProperty Name="departamento" ColumnName="departamento" />
+          <ScalarProperty Name="puesto" ColumnName="puesto" />
+          <ScalarProperty Name="salarioMensual" ColumnName="salarioMensual" />
+          <ScalarProperty Name="portacionArma" ColumnName="portacionArma" />
+          <ScalarProperty Name="vencimientoPermisoArma" ColumnName="vencimientoPermisoArma" />
+          <ScalarProperty Name="numeroCuentaBancaria" ColumnName="numeroCuentaBancaria" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_getDatosPlanillaCedula" FunctionName="ELITE_SEGURIDADModel.Store.sp_getDatosPlanillaCedula">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ELITE_SEGURIDADModel.sp_getDatosPlanillaCedula_Result">
+          <ScalarProperty Name="idPago" ColumnName="idPago" />
+          <ScalarProperty Name="idEmpleado" ColumnName="idEmpleado" />
+          <ScalarProperty Name="idPersona" ColumnName="idPersona" />
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="fechaPago" ColumnName="fechaPago" />
+          <ScalarProperty Name="salarioBruto" ColumnName="salarioBruto" />
+          <ScalarProperty Name="totalDeducciones" ColumnName="totalDeducciones" />
+          <ScalarProperty Name="salarioNeto" ColumnName="salarioNeto" />
+          <ScalarProperty Name="numeroCuentaBancaria" ColumnName="numeroCuentaBancaria" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_getDatosPlanillaFecha" FunctionName="ELITE_SEGURIDADModel.Store.sp_getDatosPlanillaFecha">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ELITE_SEGURIDADModel.sp_getDatosPlanillaFecha_Result">
+          <ScalarProperty Name="idPago" ColumnName="idPago" />
+          <ScalarProperty Name="idEmpleado" ColumnName="idEmpleado" />
+          <ScalarProperty Name="idPersona" ColumnName="idPersona" />
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="fechaPago" ColumnName="fechaPago" />
+          <ScalarProperty Name="salarioBruto" ColumnName="salarioBruto" />
+          <ScalarProperty Name="totalDeducciones" ColumnName="totalDeducciones" />
+          <ScalarProperty Name="salarioNeto" ColumnName="salarioNeto" />
+          <ScalarProperty Name="numeroCuentaBancaria" ColumnName="numeroCuentaBancaria" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

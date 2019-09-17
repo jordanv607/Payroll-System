@@ -1,0 +1,48 @@
+﻿@model FrontEnd.Models.RolViewModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Eliminar</h2>
+
+<h3>¿Está seguro de eliminar el registro?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idRol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idRol)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nombreRol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombreRol)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcionRol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcionRol)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.idRol)
+    <div class="form-actions no-color">
+        <input type="submit" value="Elminar" class="btn btn-danger" /> |
+        @Html.ActionLink("Regresar a la Lista", "Index", "Index", new { @class = "btn btn-default" })
+    </div>
+    }
+</div>

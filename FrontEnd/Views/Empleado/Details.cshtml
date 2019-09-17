@@ -1,0 +1,92 @@
+﻿@model FrontEnd.Models.EmpleadoViewModel
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Empleado</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idEmpleado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idEmpleado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.idPersona)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.empleado.numeroIdentificacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.empleado.nombrePersona)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.empleado.nombrePersona)
+            @Html.DisplayFor(model => model.empleado.primerApellido)
+            @Html.DisplayFor(model => model.empleado.segundoApellido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.departamento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.depto.descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.puesto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ocupacion.descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.salarioMensual)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.salarioMensual)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.portacionArma)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.portaArma.descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vencimientoPermisoArma)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vencimientoPermisoArma)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numeroCuentaBancaria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numeroCuentaBancaria)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.idEmpleado }, new { @class = "btn btn-info" }) |
+    @Html.ActionLink("Regresar a la Lista", "Index", "Index", new { @class = "btn btn-default" })
+</p>

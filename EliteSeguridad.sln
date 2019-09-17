@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd", "BackEnd\BackEnd.csproj", "{A7AD9C49-B0DE-413E-A62D-DBFDC82F5E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBackEnd", "TestBackEnd\TestBackEnd.csproj", "{959792B6-6AB7-405E-92C0-CF5951B77061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{0AE5C1AD-3953-4E5F-A702-F2BF099F4236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7AD9C49-B0DE-413E-A62D-DBFDC82F5E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7AD9C49-B0DE-413E-A62D-DBFDC82F5E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7AD9C49-B0DE-413E-A62D-DBFDC82F5E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7AD9C49-B0DE-413E-A62D-DBFDC82F5E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959792B6-6AB7-405E-92C0-CF5951B77061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959792B6-6AB7-405E-92C0-CF5951B77061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959792B6-6AB7-405E-92C0-CF5951B77061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959792B6-6AB7-405E-92C0-CF5951B77061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE5C1AD-3953-4E5F-A702-F2BF099F4236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE5C1AD-3953-4E5F-A702-F2BF099F4236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE5C1AD-3953-4E5F-A702-F2BF099F4236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE5C1AD-3953-4E5F-A702-F2BF099F4236}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED5DC025-21D4-4E85-8712-A354EE377F7C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/bryanjaen
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BackEnd\\BackEnd.csproj
+		SccProjectName1 = BackEnd
+		SccLocalPath1 = BackEnd
+		SccProjectUniqueName2 = FrontEnd\\FrontEnd.csproj
+		SccProjectName2 = FrontEnd
+		SccLocalPath2 = FrontEnd
+		SccProjectUniqueName3 = TestBackEnd\\TestBackEnd.csproj
+		SccProjectName3 = TestBackEnd
+		SccLocalPath3 = TestBackEnd
+	EndGlobalSection
+EndGlobal

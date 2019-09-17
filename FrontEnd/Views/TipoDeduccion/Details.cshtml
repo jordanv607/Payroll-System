@@ -1,0 +1,41 @@
+﻿@model FrontEnd.Models.TipoDeducionViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombreDeduccion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombreDeduccion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.porcentaje)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.porcentaje)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+     @Html.ActionLink("Editar", "Edit", new { id = Model.idDeduccion }, new { @class = "btn btn-info" }) |
+     @Html.ActionLink("Regresar a la Lista", "Index","Index",new { @class = "btn btn-default" })
+</p>

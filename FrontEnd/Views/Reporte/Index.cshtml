@@ -1,0 +1,19 @@
+﻿@model FrontEnd.Models.ReporteViewModel
+
+@{
+    ViewBag.Title = "Reporte planilla";
+}
+
+<h2>Reportes de Planilla</h2>
+<br />
+<div>
+    @Html.ActionLink("Desplegar todos los datos históricos", "ReportPlanilla", "Reporte") <br /><br />
+    @Html.ActionLink("Consultar por cédula de empleado", "ReportePlanillaCedula", "Reporte") <br /><br />
+    @Html.ActionLink("Consultar por fecha pago de planilla", "ReportePlanillaFecha", "Reporte") <br /><br />
+    @Html.ActionLink("Regresar", "Index")
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

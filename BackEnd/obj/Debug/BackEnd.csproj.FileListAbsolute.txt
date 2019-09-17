@@ -1,0 +1,30 @@
+C:\EliteSeguridad\EliteSeguridad\BackEnd\bin\Debug\BackEnd.dll.config
+C:\EliteSeguridad\EliteSeguridad\BackEnd\bin\Debug\BackEnd.dll
+C:\EliteSeguridad\EliteSeguridad\BackEnd\bin\Debug\BackEnd.pdb
+C:\EliteSeguridad\EliteSeguridad\BackEnd\bin\Debug\EntityFramework.SqlServer.dll
+C:\EliteSeguridad\EliteSeguridad\BackEnd\bin\Debug\EntityFramework.dll
+C:\EliteSeguridad\EliteSeguridad\BackEnd\obj\Debug\BackEnd.csprojAssemblyReference.cache
+C:\EliteSeguridad\EliteSeguridad\BackEnd\obj\Debug\BackEnd.csproj.CoreCompileInputs.cache
+C:\EliteSeguridad\EliteSeguridad\BackEnd\obj\Debug\BackEnd.csproj.CopyComplete
+C:\EliteSeguridad\EliteSeguridad\BackEnd\obj\Debug\BackEnd.dll
+C:\EliteSeguridad\EliteSeguridad\BackEnd\obj\Debug\BackEnd.pdb
+C:\EliteSeguridad\BackEnd\bin\Debug\BackEnd.dll.config
+C:\EliteSeguridad\BackEnd\bin\Debug\BackEnd.dll
+C:\EliteSeguridad\BackEnd\bin\Debug\BackEnd.pdb
+C:\EliteSeguridad\BackEnd\bin\Debug\EntityFramework.SqlServer.dll
+C:\EliteSeguridad\BackEnd\bin\Debug\EntityFramework.dll
+C:\EliteSeguridad\BackEnd\obj\Debug\BackEnd.csprojAssemblyReference.cache
+C:\EliteSeguridad\BackEnd\obj\Debug\BackEnd.csproj.CoreCompileInputs.cache
+C:\EliteSeguridad\BackEnd\obj\Debug\BackEnd.csproj.CopyComplete
+C:\EliteSeguridad\BackEnd\obj\Debug\BackEnd.dll
+C:\EliteSeguridad\BackEnd\obj\Debug\BackEnd.pdb
+C:\Azure DevOps\BackEnd\bin\Debug\BackEnd.dll.config
+C:\Azure DevOps\BackEnd\bin\Debug\BackEnd.dll
+C:\Azure DevOps\BackEnd\bin\Debug\BackEnd.pdb
+C:\Azure DevOps\BackEnd\bin\Debug\EntityFramework.SqlServer.dll
+C:\Azure DevOps\BackEnd\bin\Debug\EntityFramework.dll
+C:\Azure DevOps\BackEnd\obj\Debug\BackEnd.csprojAssemblyReference.cache
+C:\Azure DevOps\BackEnd\obj\Debug\BackEnd.csproj.CoreCompileInputs.cache
+C:\Azure DevOps\BackEnd\obj\Debug\BackEnd.csproj.CopyComplete
+C:\Azure DevOps\BackEnd\obj\Debug\BackEnd.dll
+C:\Azure DevOps\BackEnd\obj\Debug\BackEnd.pdb

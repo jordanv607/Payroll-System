@@ -1,0 +1,80 @@
+﻿@model IEnumerable<FrontEnd.Models.EmpleadoViewModel>
+
+@{
+    ViewBag.Title = "Empleados";
+}
+
+<h2>Mantenimiento de Empleados</h2>
+
+<p>
+    @Html.ActionLink("Crear Nuevo", "Create")<br /><br />
+    @Html.ActionLink("Generar Reporte", "Report")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idPersona)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.depto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ocupacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.salarioMensual)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.portacionArma)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.vencimientoPermisoArma)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.numeroCuentaBancaria)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.empleado.numeroIdentificacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.depto.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ocupacion.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.salarioMensual)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.portaArma.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.vencimientoPermisoArma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.numeroCuentaBancaria)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.idEmpleado }) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.idEmpleado }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.idEmpleado })
+            </td>
+        </tr>
+    }
+
+</table>
+@if (TempData["mensaje"] != null)
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            alert("@TempData["mensaje"]")
+        };
+    </script>
+}

@@ -1,0 +1,65 @@
+﻿@model FrontEnd.Models.UsuarioViewModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Eliminar</h2>
+
+<h3>¿Está seguro de eliminar el registro?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idPersona)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.persona.numeroIdentificacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.idRol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rol.nombreRol)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.usuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.usuario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.contrasenia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.contrasenia)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.idUsuario)
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        @Html.ActionLink("Regresar a la Lista", "Index", "Index", new { @class = "btn btn-default" })
+    </div>
+    }
+</div>
+@if (TempData["mensaje"] != null)
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            alert("@TempData["mensaje"]")
+        };
+    </script>
+}

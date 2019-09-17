@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ELITE_SEGURIDADModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DEDUCCIONES_EMPLEADOS">
+    <Key>
+      <PropertyRef Name="idDeduccionEmpleado" />
+    </Key>
+    <Property Name="idDeduccionEmpleado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idEmpleado" Type="Int32" Nullable="false" />
+    <Property Name="idDeduccion" Type="Int32" Nullable="false" />
+    <Property Name="monto" Type="Decimal" Precision="11" Scale="2" Nullable="false" />
+    <Property Name="fechaPago" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="TIPO_DEDUCCIONES" Relationship="Self.FK_IdDeduccion" FromRole="DEDUCCIONES_EMPLEADOS" ToRole="TIPO_DEDUCCIONES" />
+    <NavigationProperty Name="EMPLEADOS" Relationship="Self.FK_IdEmpleado" FromRole="DEDUCCIONES_EMPLEADOS" ToRole="EMPLEADOS" />
+  </EntityType>
+  <EntityType Name="EMPLEADOS">
+    <Key>
+      <PropertyRef Name="idEmpleado" />
+    </Key>
+    <Property Name="idEmpleado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idPersona" Type="Int32" Nullable="false" />
+    <Property Name="departamento" Type="Int32" Nullable="false" />
+    <Property Name="puesto" Type="Int32" Nullable="false" />
+    <Property Name="salarioMensual" Type="Decimal" Precision="11" Scale="2" Nullable="false" />
+    <Property Name="portacionArma" Type="Int32" Nullable="false" />
+    <Property Name="vencimientoPermisoArma" Type="DateTime" Precision="0" />
+    <Property Name="numeroCuentaBancaria" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="DEDUCCIONES_EMPLEADOS" Relationship="Self.FK_IdEmpleado" FromRole="EMPLEADOS" ToRole="DEDUCCIONES_EMPLEADOS" />
+    <NavigationProperty Name="PARAMETROS" Relationship="Self.FK_Departamento" FromRole="EMPLEADOS" ToRole="PARAMETROS" />
+    <NavigationProperty Name="PAGO_EMPLEADOS" Relationship="Self.FK_IdEmpleadoPago" FromRole="EMPLEADOS" ToRole="PAGO_EMPLEADOS" />
+    <NavigationProperty Name="PERSONAS" Relationship="Self.FK_IdPersonaEmpleado" FromRole="EMPLEADOS" ToRole="PERSONAS" />
+    <NavigationProperty Name="PARAMETROS1" Relationship="Self.FK_PortacionArma" FromRole="EMPLEADOS" ToRole="PARAMETROS" />
+    <NavigationProperty Name="PARAMETROS2" Relationship="Self.FK_Puesto" FromRole="EMPLEADOS" ToRole="PARAMETROS" />
+  </EntityType>
+  <EntityType Name="PAGO_EMPLEADOS">
+    <Key>
+      <PropertyRef Name="idPago" />
+    </Key>
+    <Property Name="idPago" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idEmpleado" Type="Int32" Nullable="false" />
+    <Property Name="salarioBruto" Type="Decimal" Precision="11" Scale="2" Nullable="false" />
+    <Property Name="totalDeducciones" Type="Decimal" Precision="11" Scale="2" Nullable="false" />
+    <Property Name="salarioNeto" Type="Decimal" Precision="11" Scale="2" Nullable="false" />
+    <Property Name="fechaPago" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="EMPLEADOS" Relationship="Self.FK_IdEmpleadoPago" FromRole="PAGO_EMPLEADOS" ToRole="EMPLEADOS" />
+  </EntityType>
+  <EntityType Name="PARAMETROS">
+    <Key>
+      <PropertyRef Name="idParametro" />
+    </Key>
+    <Property Name="idParametro" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tabla" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="campo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="EMPLEADOS" Relationship="Self.FK_Departamento" FromRole="PARAMETROS" ToRole="EMPLEADOS" />
+    <NavigationProperty Name="EMPLEADOS1" Relationship="Self.FK_PortacionArma" FromRole="PARAMETROS" ToRole="EMPLEADOS" />
+    <NavigationProperty Name="EMPLEADOS2" Relationship="Self.FK_Puesto" FromRole="PARAMETROS" ToRole="EMPLEADOS" />
+    <NavigationProperty Name="PERSONAS" Relationship="Self.FK_Estado" FromRole="PARAMETROS" ToRole="PERSONAS" />
+    <NavigationProperty Name="PERSONAS1" Relationship="Self.FK_Genero" FromRole="PARAMETROS" ToRole="PERSONAS" />
+    <NavigationProperty Name="PERSONAS2" Relationship="Self.FK_Nacionalidad" FromRole="PARAMETROS" ToRole="PERSONAS" />
+  </EntityType>
+  <EntityType Name="PERSONAS">
+    <Key>
+      <PropertyRef Name="idPersona" />
+    </Key>
+    <Property Name="idPersona" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numeroIdentificacion" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombrePersona" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="primerApellido" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="segundoApellido" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="genero" Type="Int32" Nullable="false" />
+    <Property Name="estado" Type="Int32" Nullable="false" />
+    <Property Name="nacionalidad" Type="Int32" Nullable="false" />
+    <Property Name="correoElectronico" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="direccionResidencia" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="EMPLEADOS" Relationship="Self.FK_IdPersonaEmpleado" FromRole="PERSONAS" ToRole="EMPLEADOS" />
+    <NavigationProperty Name="PARAMETROS" Relationship="Self.FK_Estado" FromRole="PERSONAS" ToRole="PARAMETROS" />
+    <NavigationProperty Name="PARAMETROS1" Relationship="Self.FK_Genero" FromRole="PERSONAS" ToRole="PARAMETROS" />
+    <NavigationProperty Name="PARAMETROS2" Relationship="Self.FK_Nacionalidad" FromRole="PERSONAS" ToRole="PARAMETROS" />
+    <NavigationProperty Name="USUARIOS" Relationship="Self.FK_IdPersona" FromRole="PERSONAS" ToRole="USUARIOS" />
+  </EntityType>
+  <EntityType Name="ROLES">
+    <Key>
+      <PropertyRef Name="idRol" />
+    </Key>
+    <Property Name="idRol" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombreRol" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="descripcionRol" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="USUARIOS" Relationship="Self.FK_IdRol" FromRole="ROLES" ToRole="USUARIOS" />
+  </EntityType>
+  <EntityType Name="TIPO_DEDUCCIONES">
+    <Key>
+      <PropertyRef Name="idDeduccion" />
+    </Key>
+    <Property Name="idDeduccion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombreDeduccion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="porcentaje" Type="Decimal" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="DEDUCCIONES_EMPLEADOS" Relationship="Self.FK_IdDeduccion" FromRole="TIPO_DEDUCCIONES" ToRole="DEDUCCIONES_EMPLEADOS" />
+  </EntityType>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idPersona" Type="Int32" Nullable="false" />
+    <Property Name="idRol" Type="Int32" Nullable="false" />
+    <Property Name="usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contrasenia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="intentos_usuario" Type="Decimal" Precision="1" Scale="0" />
+    <NavigationProperty Name="PERSONAS" Relationship="Self.FK_IdPersona" FromRole="USUARIOS" ToRole="PERSONAS" />
+    <NavigationProperty Name="ROLES" Relationship="Self.FK_IdRol" FromRole="USUARIOS" ToRole="ROLES" />
+  </EntityType>
+  <Association Name="FK_IdDeduccion">
+    <End Role="TIPO_DEDUCCIONES" Type="Self.TIPO_DEDUCCIONES" Multiplicity="1" />
+    <End Role="DEDUCCIONES_EMPLEADOS" Type="Self.DEDUCCIONES_EMPLEADOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_DEDUCCIONES">
+        <PropertyRef Name="idDeduccion" />
+      </Principal>
+      <Dependent Role="DEDUCCIONES_EMPLEADOS">
+        <PropertyRef Name="idDeduccion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_IdEmpleado">
+    <End Role="EMPLEADOS" Type="Self.EMPLEADOS" Multiplicity="1" />
+    <End Role="DEDUCCIONES_EMPLEADOS" Type="Self.DEDUCCIONES_EMPLEADOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMPLEADOS">
+        <PropertyRef Name="idEmpleado" />
+      </Principal>
+      <Dependent Role="DEDUCCIONES_EMPLEADOS">
+        <PropertyRef Name="idEmpleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Departamento">
+    <End Role="PARAMETROS" Type="Self.PARAMETROS" Multiplicity="1" />
+    <End Role="EMPLEADOS" Type="Self.EMPLEADOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARAMETROS">
+        <PropertyRef Name="idParametro" />
+      </Principal>
+      <Dependent Role="EMPLEADOS">
+        <PropertyRef Name="departamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_IdEmpleadoPago">
+    <End Role="EMPLEADOS" Type="Self.EMPLEADOS" Multiplicity="1" />
+    <End Role="PAGO_EMPLEADOS" Type="Self.PAGO_EMPLEADOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMPLEADOS">
+        <PropertyRef Name="idEmpleado" />
+      </Principal>
+      <Dependent Role="PAGO_EMPLEADOS">
+        <PropertyRef Name="idEmpleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_IdPersonaEmpleado">
+    <End Role="PERSONAS" Type="Self.PERSONAS" Multiplicity="1" />
+    <End Role="EMPLEADOS" Type="Self.EMPLEADOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PERSONAS">
+        <PropertyRef Name="idPersona" />
+      </Principal>
+      <Dependent Role="EMPLEADOS">
+        <PropertyRef Name="idPersona" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PortacionArma">
+    <End Role="PARAMETROS" Type="Self.PARAMETROS" Multiplicity="1" />
+    <End Role="EMPLEADOS" Type="Self.EMPLEADOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARAMETROS">
+        <PropertyRef Name="idParametro" />
+      </Principal>
+      <Dependent Role="EMPLEADOS">
+        <PropertyRef Name="portacionArma" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Puesto">
+    <End Role="PARAMETROS" Type="Self.PARAMETROS" Multiplicity="1" />
+    <End Role="EMPLEADOS" Type="Self.EMPLEADOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARAMETROS">
+        <PropertyRef Name="idParametro" />
+      </Principal>
+      <Dependent Role="EMPLEADOS">
+        <PropertyRef Name="puesto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Estado">
+    <End Role="PARAMETROS" Type="Self.PARAMETROS" Multiplicity="1" />
+    <End Role="PERSONAS" Type="Self.PERSONAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARAMETROS">
+        <PropertyRef Name="idParametro" />
+      </Principal>
+      <Dependent Role="PERSONAS">
+        <PropertyRef Name="estado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Genero">
+    <End Role="PARAMETROS" Type="Self.PARAMETROS" Multiplicity="1" />
+    <End Role="PERSONAS" Type="Self.PERSONAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARAMETROS">
+        <PropertyRef Name="idParametro" />
+      </Principal>
+      <Dependent Role="PERSONAS">
+        <PropertyRef Name="genero" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Nacionalidad">
+    <End Role="PARAMETROS" Type="Self.PARAMETROS" Multiplicity="1" />
+    <End Role="PERSONAS" Type="Self.PERSONAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARAMETROS">
+        <PropertyRef Name="idParametro" />
+      </Principal>
+      <Dependent Role="PERSONAS">
+        <PropertyRef Name="nacionalidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_IdPersona">
+    <End Role="PERSONAS" Type="Self.PERSONAS" Multiplicity="1" />
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PERSONAS">
+        <PropertyRef Name="idPersona" />
+      </Principal>
+      <Dependent Role="USUARIOS">
+        <PropertyRef Name="idPersona" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_IdRol">
+    <End Role="ROLES" Type="Self.ROLES" Multiplicity="1" />
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ROLES">
+        <PropertyRef Name="idRol" />
+      </Principal>
+      <Dependent Role="USUARIOS">
+        <PropertyRef Name="idRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BDContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DEDUCCIONES_EMPLEADOS" EntityType="Self.DEDUCCIONES_EMPLEADOS" />
+    <EntitySet Name="EMPLEADOS" EntityType="Self.EMPLEADOS" />
+    <EntitySet Name="PAGO_EMPLEADOS" EntityType="Self.PAGO_EMPLEADOS" />
+    <EntitySet Name="PARAMETROS" EntityType="Self.PARAMETROS" />
+    <EntitySet Name="PERSONAS" EntityType="Self.PERSONAS" />
+    <EntitySet Name="ROLES" EntityType="Self.ROLES" />
+    <EntitySet Name="TIPO_DEDUCCIONES" EntityType="Self.TIPO_DEDUCCIONES" />
+    <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" />
+    <AssociationSet Name="FK_IdDeduccion" Association="Self.FK_IdDeduccion">
+      <End Role="TIPO_DEDUCCIONES" EntitySet="TIPO_DEDUCCIONES" />
+      <End Role="DEDUCCIONES_EMPLEADOS" EntitySet="DEDUCCIONES_EMPLEADOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IdEmpleado" Association="Self.FK_IdEmpleado">
+      <End Role="EMPLEADOS" EntitySet="EMPLEADOS" />
+      <End Role="DEDUCCIONES_EMPLEADOS" EntitySet="DEDUCCIONES_EMPLEADOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Departamento" Association="Self.FK_Departamento">
+      <End Role="PARAMETROS" EntitySet="PARAMETROS" />
+      <End Role="EMPLEADOS" EntitySet="EMPLEADOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IdEmpleadoPago" Association="Self.FK_IdEmpleadoPago">
+      <End Role="EMPLEADOS" EntitySet="EMPLEADOS" />
+      <End Role="PAGO_EMPLEADOS" EntitySet="PAGO_EMPLEADOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IdPersonaEmpleado" Association="Self.FK_IdPersonaEmpleado">
+      <End Role="PERSONAS" EntitySet="PERSONAS" />
+      <End Role="EMPLEADOS" EntitySet="EMPLEADOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PortacionArma" Association="Self.FK_PortacionArma">
+      <End Role="PARAMETROS" EntitySet="PARAMETROS" />
+      <End Role="EMPLEADOS" EntitySet="EMPLEADOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Puesto" Association="Self.FK_Puesto">
+      <End Role="PARAMETROS" EntitySet="PARAMETROS" />
+      <End Role="EMPLEADOS" EntitySet="EMPLEADOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Estado" Association="Self.FK_Estado">
+      <End Role="PARAMETROS" EntitySet="PARAMETROS" />
+      <End Role="PERSONAS" EntitySet="PERSONAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Genero" Association="Self.FK_Genero">
+      <End Role="PARAMETROS" EntitySet="PARAMETROS" />
+      <End Role="PERSONAS" EntitySet="PERSONAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Nacionalidad" Association="Self.FK_Nacionalidad">
+      <End Role="PARAMETROS" EntitySet="PARAMETROS" />
+      <End Role="PERSONAS" EntitySet="PERSONAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IdPersona" Association="Self.FK_IdPersona">
+      <End Role="PERSONAS" EntitySet="PERSONAS" />
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IdRol" Association="Self.FK_IdRol">
+      <End Role="ROLES" EntitySet="ROLES" />
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+    </AssociationSet>
+    <FunctionImport Name="sp_getRolesForUser" ReturnType="Collection(String)">
+      <Parameter Name="userName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getUsuariosRole" ReturnType="Collection(String)">
+      <Parameter Name="roleName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_isUserInRole" ReturnType="Collection(Boolean)">
+      <Parameter Name="userName" Mode="In" Type="String" />
+      <Parameter Name="roleName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_CalculoPlanilla" ReturnType="Collection(ELITE_SEGURIDADModel.sp_CalculoPlanilla_Result)" />
+    <FunctionImport Name="sp_RetornaPortacionArma" ReturnType="Collection(ELITE_SEGURIDADModel.sp_RetornaPortacionArma_Result)" />
+    <FunctionImport Name="sp_getEmpleadosActivos" ReturnType="Collection(ELITE_SEGURIDADModel.sp_getEmpleadosActivos_Result)" />
+    <FunctionImport Name="sp_getDatosPlanillaCedula" ReturnType="Collection(ELITE_SEGURIDADModel.sp_getDatosPlanillaCedula_Result)">
+      <Parameter Name="pCedula" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getDatosPlanillaFecha" ReturnType="Collection(ELITE_SEGURIDADModel.sp_getDatosPlanillaFecha_Result)">
+      <Parameter Name="pFecha" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_CalculoPlanilla_Result">
+    <Property Type="String" Name="numeroIdentificacion" Nullable="false" MaxLength="12" />
+    <Property Type="String" Name="nombrePersona" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="primerApellido" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="segundoApellido" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="correoElectronico" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="numeroCuentaBancaria" Nullable="false" MaxLength="25" />
+    <Property Type="Decimal" Name="salarioNeto" Nullable="false" Precision="11" Scale="2" />
+    <Property Type="Decimal" Name="totalDeducciones" Nullable="false" Precision="11" Scale="2" />
+    <Property Type="Decimal" Name="salarioBruto" Nullable="false" Precision="11" Scale="2" />
+    <Property Type="DateTime" Name="fechaPago" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_RetornaPortacionArma_Result">
+    <Property Type="String" Name="numeroIdentificacion" Nullable="false" MaxLength="12" />
+    <Property Type="String" Name="nombrePersona" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="primerApellido" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="segundoApellido" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="telefono" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="portacionArma" Nullable="false" MaxLength="30" />
+    <Property Type="DateTime" Name="vencimientoPermisoArma" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_getEmpleadosActivos_Result">
+    <Property Type="Int32" Name="idEmpleado" Nullable="false" />
+    <Property Type="Int32" Name="idPersona" Nullable="false" />
+    <Property Type="Int32" Name="departamento" Nullable="false" />
+    <Property Type="Int32" Name="puesto" Nullable="false" />
+    <Property Type="Decimal" Name="salarioMensual" Nullable="false" Precision="11" Scale="2" />
+    <Property Type="Int32" Name="portacionArma" Nullable="false" />
+    <Property Type="DateTime" Name="vencimientoPermisoArma" Nullable="true" />
+    <Property Type="String" Name="numeroCuentaBancaria" Nullable="false" MaxLength="25" />
+    <Property Type="String" Name="estado" Nullable="false" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="sp_getDatosPlanillaCedula_Result">
+    <Property Type="Int32" Name="idPago" Nullable="false" />
+    <Property Type="Int32" Name="idEmpleado" Nullable="false" />
+    <Property Type="Int32" Name="idPersona" Nullable="false" />
+    <Property Type="String" Name="numeroIdentificacion" Nullable="false" MaxLength="12" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="62" />
+    <Property Type="DateTime" Name="fechaPago" Nullable="false" />
+    <Property Type="Decimal" Name="salarioBruto" Nullable="false" Precision="11" Scale="2" />
+    <Property Type="Decimal" Name="totalDeducciones" Nullable="false" Precision="11" Scale="2" />
+    <Property Type="Decimal" Name="salarioNeto" Nullable="false" Precision="11" Scale="2" />
+    <Property Type="String" Name="numeroCuentaBancaria" Nullable="false" MaxLength="25" />
+  </ComplexType>
+  <ComplexType Name="sp_getDatosPlanillaFecha_Result">
+    <Property Type="Int32" Name="idPago" Nullable="false" />
+    <Property Type="Int32" Name="idEmpleado" Nullable="false" />
+    <Property Type="Int32" Name="idPersona" Nullable="false" />
+    <Property Type="String" Name="numeroIdentificacion" Nullable="false" MaxLength="12" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="62" />
+    <Property Type="DateTime" Name="fechaPago" Nullable="false" />
+    <Property Type="Decimal" Name="salarioBruto" Nullable="false" Precision="11" Scale="2" />
+    <Property Type="Decimal" Name="totalDeducciones" Nullable="false" Precision="11" Scale="2" />
+    <Property Type="Decimal" Name="salarioNeto" Nullable="false" Precision="11" Scale="2" />
+    <Property Type="String" Name="numeroCuentaBancaria" Nullable="false" MaxLength="25" />
+  </ComplexType>
+</Schema>

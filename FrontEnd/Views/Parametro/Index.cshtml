@@ -1,0 +1,60 @@
+﻿@model IEnumerable<FrontEnd.Models.ParametroViewModel>
+
+@{
+    ViewBag.Title = "Parámetros";
+}
+
+<h2>Mantenimiento de Parámetros Generales</h2>
+
+<p>
+    @Html.ActionLink("Crear nuevo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idParametro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tabla)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.campo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.idParametro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tabla)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.campo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descripcion)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.idParametro }) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.idParametro }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.idParametro })
+            </td>
+        </tr>
+    }
+
+</table>
+@if (TempData["mensaje"] != null)
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            alert("@TempData["mensaje"]")
+        };
+    </script>
+}

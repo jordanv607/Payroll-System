@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="633d0c9f9d2b425fbbd414697e292773" Name="Diagram1">
+        <EntityTypeShape EntityType="ELITE_SEGURIDADModel.DEDUCCIONES_EMPLEADOS" Width="1.5" PointX="7.5" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ELITE_SEGURIDADModel.EMPLEADOS" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ELITE_SEGURIDADModel.PAGO_EMPLEADOS" Width="1.5" PointX="7.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="ELITE_SEGURIDADModel.PARAMETROS" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ELITE_SEGURIDADModel.PERSONAS" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ELITE_SEGURIDADModel.ROLES" Width="1.5" PointX="3" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ELITE_SEGURIDADModel.TIPO_DEDUCCIONES" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="ELITE_SEGURIDADModel.USUARIOS" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <AssociationConnector Association="ELITE_SEGURIDADModel.FK_IdDeduccion" ManuallyRouted="false" />
+        <AssociationConnector Association="ELITE_SEGURIDADModel.FK_IdEmpleado" ManuallyRouted="false" />
+        <AssociationConnector Association="ELITE_SEGURIDADModel.FK_Departamento" ManuallyRouted="false" />
+        <AssociationConnector Association="ELITE_SEGURIDADModel.FK_IdEmpleadoPago" ManuallyRouted="false" />
+        <AssociationConnector Association="ELITE_SEGURIDADModel.FK_IdPersonaEmpleado" ManuallyRouted="false" />
+        <AssociationConnector Association="ELITE_SEGURIDADModel.FK_PortacionArma" ManuallyRouted="false" />
+        <AssociationConnector Association="ELITE_SEGURIDADModel.FK_Puesto" ManuallyRouted="false" />
+        <AssociationConnector Association="ELITE_SEGURIDADModel.FK_Estado" ManuallyRouted="false" />
+        <AssociationConnector Association="ELITE_SEGURIDADModel.FK_Genero" ManuallyRouted="false" />
+        <AssociationConnector Association="ELITE_SEGURIDADModel.FK_Nacionalidad" ManuallyRouted="false" />
+        <AssociationConnector Association="ELITE_SEGURIDADModel.FK_IdPersona" ManuallyRouted="false" />
+        <AssociationConnector Association="ELITE_SEGURIDADModel.FK_IdRol" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

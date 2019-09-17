@@ -1,0 +1,106 @@
+﻿@model FrontEnd.Models.PersonaViewModel
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Persona</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idPersona)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idPersona)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numeroIdentificacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numeroIdentificacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nombrePersona)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombrePersona)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.primerApellido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.primerApellido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.segundoApellido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.segundoApellido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.genero)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.generoObj.descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estadoObj.descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nacionalidad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nacionalidadObj.descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.correoElectronico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.correoElectronico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.telefono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefono)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.direccionResidencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.direccionResidencia)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.idPersona }, new { @class = "btn btn-info" }) |
+    @Html.ActionLink("Regresar a la Lista", "Index", "Index", new { @class = "btn btn-default" })
+</p>

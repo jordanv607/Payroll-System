@@ -1,0 +1,543 @@
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.csprojAssemblyReference.cache
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\obj\Debug\RdlCompile.cache
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\obj\Debug\RdlCompile.compiled
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.csproj.CoreCompileInputs.cache
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\ApplicationInsights.config
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\SqlServerTypes\x64\msvcr120.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\SqlServerTypes\x86\msvcr120.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\FrontEnd.dll.config
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\FrontEnd.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\FrontEnd.pdb
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\csc.exe
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\csc.exe.config
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\csc.rsp
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\csi.exe
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\csi.exe.config
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\csi.rsp
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.AppContext.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Console.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Diagnostics.Process.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.Compression.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.FileSystem.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.Pipes.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.AccessControl.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Claims.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Principal.Windows.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Threading.Thread.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.ValueTuple.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Xml.XmlDocument.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Xml.XPath.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\vbc.exe
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\vbc.exe.config
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\vbc.rsp
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\VBCSCompiler.exe
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Antlr3.Runtime.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\BackEnd.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\EntityFramework.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\EntityFramework.SqlServer.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.AI.Agent.Intercept.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.AI.DependencyCollector.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.AI.Web.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.AI.WindowsServer.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.ApplicationInsights.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.ReportViewer.Common.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.SqlServer.Types.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.Web.Infrastructure.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Newtonsoft.Json.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\ReportViewerForMvc.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.Helpers.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.Mvc.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.Optimization.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.Razor.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.Deployment.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.Razor.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\WebGrease.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\BackEnd.pdb
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\BackEnd.dll.config
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\EntityFramework.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\EntityFramework.SqlServer.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.Helpers.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.Mvc.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.Optimization.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.Razor.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.Deployment.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.Razor.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Antlr3.Runtime.pdb
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Newtonsoft.Json.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.ApplicationInsights.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.AI.DependencyCollector.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.AI.WindowsServer.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\bin\Microsoft.AI.Web.xml
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.csproj.CopyComplete
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.dll
+C:\EliteSeguridad\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.pdb
+C:\EliteSeguridad\FrontEnd\bin\ApplicationInsights.config
+C:\EliteSeguridad\FrontEnd\bin\SqlServerTypes\x64\msvcr120.dll
+C:\EliteSeguridad\FrontEnd\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\EliteSeguridad\FrontEnd\bin\SqlServerTypes\x86\msvcr120.dll
+C:\EliteSeguridad\FrontEnd\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\EliteSeguridad\FrontEnd\bin\FrontEnd.dll.config
+C:\EliteSeguridad\FrontEnd\bin\FrontEnd.dll
+C:\EliteSeguridad\FrontEnd\bin\FrontEnd.pdb
+C:\EliteSeguridad\FrontEnd\bin\roslyn\csc.exe
+C:\EliteSeguridad\FrontEnd\bin\roslyn\csc.exe.config
+C:\EliteSeguridad\FrontEnd\bin\roslyn\csc.rsp
+C:\EliteSeguridad\FrontEnd\bin\roslyn\csi.exe
+C:\EliteSeguridad\FrontEnd\bin\roslyn\csi.exe.config
+C:\EliteSeguridad\FrontEnd\bin\roslyn\csi.rsp
+C:\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.AppContext.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Console.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Diagnostics.Process.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.Compression.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.FileSystem.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.Pipes.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.AccessControl.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Claims.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Principal.Windows.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Threading.Thread.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.ValueTuple.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Xml.XmlDocument.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Xml.XPath.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\EliteSeguridad\FrontEnd\bin\roslyn\vbc.exe
+C:\EliteSeguridad\FrontEnd\bin\roslyn\vbc.exe.config
+C:\EliteSeguridad\FrontEnd\bin\roslyn\vbc.rsp
+C:\EliteSeguridad\FrontEnd\bin\roslyn\VBCSCompiler.exe
+C:\EliteSeguridad\FrontEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\EliteSeguridad\FrontEnd\bin\Antlr3.Runtime.dll
+C:\EliteSeguridad\FrontEnd\bin\BackEnd.dll
+C:\EliteSeguridad\FrontEnd\bin\EntityFramework.dll
+C:\EliteSeguridad\FrontEnd\bin\EntityFramework.SqlServer.dll
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.AI.Agent.Intercept.dll
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.AI.DependencyCollector.dll
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.AI.Web.dll
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.AI.WindowsServer.dll
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.ApplicationInsights.dll
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.ReportViewer.Common.dll
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.SqlServer.Types.dll
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.Web.Infrastructure.dll
+C:\EliteSeguridad\FrontEnd\bin\Newtonsoft.Json.dll
+C:\EliteSeguridad\FrontEnd\bin\ReportViewerForMvc.dll
+C:\EliteSeguridad\FrontEnd\bin\System.Web.Helpers.dll
+C:\EliteSeguridad\FrontEnd\bin\System.Web.Mvc.dll
+C:\EliteSeguridad\FrontEnd\bin\System.Web.Optimization.dll
+C:\EliteSeguridad\FrontEnd\bin\System.Web.Razor.dll
+C:\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.Deployment.dll
+C:\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.dll
+C:\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.Razor.dll
+C:\EliteSeguridad\FrontEnd\bin\WebGrease.dll
+C:\EliteSeguridad\FrontEnd\bin\BackEnd.pdb
+C:\EliteSeguridad\FrontEnd\bin\BackEnd.dll.config
+C:\EliteSeguridad\FrontEnd\bin\EntityFramework.xml
+C:\EliteSeguridad\FrontEnd\bin\EntityFramework.SqlServer.xml
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\EliteSeguridad\FrontEnd\bin\System.Web.Helpers.xml
+C:\EliteSeguridad\FrontEnd\bin\System.Web.Mvc.xml
+C:\EliteSeguridad\FrontEnd\bin\System.Web.Optimization.xml
+C:\EliteSeguridad\FrontEnd\bin\System.Web.Razor.xml
+C:\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.xml
+C:\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.Deployment.xml
+C:\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.Razor.xml
+C:\EliteSeguridad\FrontEnd\bin\Antlr3.Runtime.pdb
+C:\EliteSeguridad\FrontEnd\bin\Newtonsoft.Json.xml
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.ApplicationInsights.xml
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.AI.DependencyCollector.xml
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.AI.WindowsServer.xml
+C:\EliteSeguridad\FrontEnd\bin\Microsoft.AI.Web.xml
+C:\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.csprojAssemblyReference.cache
+C:\EliteSeguridad\FrontEnd\obj\Debug\RdlCompile.cache
+C:\EliteSeguridad\FrontEnd\obj\Debug\RdlCompile.compiled
+C:\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.csproj.CoreCompileInputs.cache
+C:\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.csproj.CopyComplete
+C:\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.dll
+C:\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.pdb
+C:\AzureDevOps\FrontEnd\bin\ApplicationInsights.config
+C:\AzureDevOps\FrontEnd\bin\SqlServerTypes\x64\msvcr120.dll
+C:\AzureDevOps\FrontEnd\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\AzureDevOps\FrontEnd\bin\SqlServerTypes\x86\msvcr120.dll
+C:\AzureDevOps\FrontEnd\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\AzureDevOps\FrontEnd\bin\FrontEnd.dll.config
+C:\AzureDevOps\FrontEnd\bin\FrontEnd.dll
+C:\AzureDevOps\FrontEnd\bin\FrontEnd.pdb
+C:\AzureDevOps\FrontEnd\bin\roslyn\csc.exe
+C:\AzureDevOps\FrontEnd\bin\roslyn\csc.exe.config
+C:\AzureDevOps\FrontEnd\bin\roslyn\csc.rsp
+C:\AzureDevOps\FrontEnd\bin\roslyn\csi.exe
+C:\AzureDevOps\FrontEnd\bin\roslyn\csi.exe.config
+C:\AzureDevOps\FrontEnd\bin\roslyn\csi.rsp
+C:\AzureDevOps\FrontEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\AzureDevOps\FrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\AzureDevOps\FrontEnd\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.AppContext.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Console.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Diagnostics.Process.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.IO.Compression.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.IO.FileSystem.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.IO.Pipes.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Security.AccessControl.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Security.Claims.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Security.Principal.Windows.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Threading.Thread.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.ValueTuple.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Xml.XmlDocument.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Xml.XPath.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\AzureDevOps\FrontEnd\bin\roslyn\vbc.exe
+C:\AzureDevOps\FrontEnd\bin\roslyn\vbc.exe.config
+C:\AzureDevOps\FrontEnd\bin\roslyn\vbc.rsp
+C:\AzureDevOps\FrontEnd\bin\roslyn\VBCSCompiler.exe
+C:\AzureDevOps\FrontEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\AzureDevOps\FrontEnd\bin\Antlr3.Runtime.dll
+C:\AzureDevOps\FrontEnd\bin\BackEnd.dll
+C:\AzureDevOps\FrontEnd\bin\EntityFramework.dll
+C:\AzureDevOps\FrontEnd\bin\EntityFramework.SqlServer.dll
+C:\AzureDevOps\FrontEnd\bin\Microsoft.AI.Agent.Intercept.dll
+C:\AzureDevOps\FrontEnd\bin\Microsoft.AI.DependencyCollector.dll
+C:\AzureDevOps\FrontEnd\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\AzureDevOps\FrontEnd\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\AzureDevOps\FrontEnd\bin\Microsoft.AI.Web.dll
+C:\AzureDevOps\FrontEnd\bin\Microsoft.AI.WindowsServer.dll
+C:\AzureDevOps\FrontEnd\bin\Microsoft.ApplicationInsights.dll
+C:\AzureDevOps\FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\AzureDevOps\FrontEnd\bin\Microsoft.ReportViewer.Common.dll
+C:\AzureDevOps\FrontEnd\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\AzureDevOps\FrontEnd\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\AzureDevOps\FrontEnd\bin\Microsoft.SqlServer.Types.dll
+C:\AzureDevOps\FrontEnd\bin\Microsoft.Web.Infrastructure.dll
+C:\AzureDevOps\FrontEnd\bin\Newtonsoft.Json.dll
+C:\AzureDevOps\FrontEnd\bin\ReportViewerForMvc.dll
+C:\AzureDevOps\FrontEnd\bin\System.Web.Helpers.dll
+C:\AzureDevOps\FrontEnd\bin\System.Web.Mvc.dll
+C:\AzureDevOps\FrontEnd\bin\System.Web.Optimization.dll
+C:\AzureDevOps\FrontEnd\bin\System.Web.Razor.dll
+C:\AzureDevOps\FrontEnd\bin\System.Web.WebPages.Deployment.dll
+C:\AzureDevOps\FrontEnd\bin\System.Web.WebPages.dll
+C:\AzureDevOps\FrontEnd\bin\System.Web.WebPages.Razor.dll
+C:\AzureDevOps\FrontEnd\bin\WebGrease.dll
+C:\AzureDevOps\FrontEnd\bin\BackEnd.pdb
+C:\AzureDevOps\FrontEnd\bin\BackEnd.dll.config
+C:\AzureDevOps\FrontEnd\bin\EntityFramework.xml
+C:\AzureDevOps\FrontEnd\bin\EntityFramework.SqlServer.xml
+C:\AzureDevOps\FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\AzureDevOps\FrontEnd\bin\System.Web.Helpers.xml
+C:\AzureDevOps\FrontEnd\bin\System.Web.Mvc.xml
+C:\AzureDevOps\FrontEnd\bin\System.Web.Optimization.xml
+C:\AzureDevOps\FrontEnd\bin\System.Web.Razor.xml
+C:\AzureDevOps\FrontEnd\bin\System.Web.WebPages.xml
+C:\AzureDevOps\FrontEnd\bin\System.Web.WebPages.Deployment.xml
+C:\AzureDevOps\FrontEnd\bin\System.Web.WebPages.Razor.xml
+C:\AzureDevOps\FrontEnd\bin\Antlr3.Runtime.pdb
+C:\AzureDevOps\FrontEnd\bin\Newtonsoft.Json.xml
+C:\AzureDevOps\FrontEnd\bin\Microsoft.ApplicationInsights.xml
+C:\AzureDevOps\FrontEnd\bin\Microsoft.AI.DependencyCollector.xml
+C:\AzureDevOps\FrontEnd\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\AzureDevOps\FrontEnd\bin\Microsoft.AI.WindowsServer.xml
+C:\AzureDevOps\FrontEnd\bin\Microsoft.AI.Web.xml
+C:\AzureDevOps\FrontEnd\obj\Debug\FrontEnd.csprojAssemblyReference.cache
+C:\AzureDevOps\FrontEnd\obj\Debug\RdlCompile.cache
+C:\AzureDevOps\FrontEnd\obj\Debug\RdlCompile.compiled
+C:\AzureDevOps\FrontEnd\obj\Debug\FrontEnd.csproj.CoreCompileInputs.cache
+C:\AzureDevOps\FrontEnd\obj\Debug\FrontEnd.csproj.CopyComplete
+C:\AzureDevOps\FrontEnd\obj\Debug\FrontEnd.dll
+C:\AzureDevOps\FrontEnd\obj\Debug\FrontEnd.pdb
+C:\Azure DevOps\FrontEnd\bin\ApplicationInsights.config
+C:\Azure DevOps\FrontEnd\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Azure DevOps\FrontEnd\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Azure DevOps\FrontEnd\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Azure DevOps\FrontEnd\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Azure DevOps\FrontEnd\bin\FrontEnd.dll.config
+C:\Azure DevOps\FrontEnd\bin\FrontEnd.dll
+C:\Azure DevOps\FrontEnd\bin\FrontEnd.pdb
+C:\Azure DevOps\FrontEnd\bin\roslyn\csc.exe
+C:\Azure DevOps\FrontEnd\bin\roslyn\csc.exe.config
+C:\Azure DevOps\FrontEnd\bin\roslyn\csc.rsp
+C:\Azure DevOps\FrontEnd\bin\roslyn\csi.exe
+C:\Azure DevOps\FrontEnd\bin\roslyn\csi.exe.config
+C:\Azure DevOps\FrontEnd\bin\roslyn\csi.rsp
+C:\Azure DevOps\FrontEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Azure DevOps\FrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Azure DevOps\FrontEnd\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.AppContext.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Console.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Diagnostics.Process.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.IO.Compression.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.IO.FileSystem.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.IO.Pipes.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Security.AccessControl.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Security.Claims.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Threading.Thread.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.ValueTuple.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Xml.XPath.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Azure DevOps\FrontEnd\bin\roslyn\vbc.exe
+C:\Azure DevOps\FrontEnd\bin\roslyn\vbc.exe.config
+C:\Azure DevOps\FrontEnd\bin\roslyn\vbc.rsp
+C:\Azure DevOps\FrontEnd\bin\roslyn\VBCSCompiler.exe
+C:\Azure DevOps\FrontEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Azure DevOps\FrontEnd\bin\Antlr3.Runtime.dll
+C:\Azure DevOps\FrontEnd\bin\BackEnd.dll
+C:\Azure DevOps\FrontEnd\bin\EntityFramework.dll
+C:\Azure DevOps\FrontEnd\bin\EntityFramework.SqlServer.dll
+C:\Azure DevOps\FrontEnd\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Azure DevOps\FrontEnd\bin\Microsoft.AI.DependencyCollector.dll
+C:\Azure DevOps\FrontEnd\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Azure DevOps\FrontEnd\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Azure DevOps\FrontEnd\bin\Microsoft.AI.Web.dll
+C:\Azure DevOps\FrontEnd\bin\Microsoft.AI.WindowsServer.dll
+C:\Azure DevOps\FrontEnd\bin\Microsoft.ApplicationInsights.dll
+C:\Azure DevOps\FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Azure DevOps\FrontEnd\bin\Microsoft.ReportViewer.Common.dll
+C:\Azure DevOps\FrontEnd\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Azure DevOps\FrontEnd\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Azure DevOps\FrontEnd\bin\Microsoft.SqlServer.Types.dll
+C:\Azure DevOps\FrontEnd\bin\Microsoft.Web.Infrastructure.dll
+C:\Azure DevOps\FrontEnd\bin\Newtonsoft.Json.dll
+C:\Azure DevOps\FrontEnd\bin\ReportViewerForMvc.dll
+C:\Azure DevOps\FrontEnd\bin\System.Web.Helpers.dll
+C:\Azure DevOps\FrontEnd\bin\System.Web.Mvc.dll
+C:\Azure DevOps\FrontEnd\bin\System.Web.Optimization.dll
+C:\Azure DevOps\FrontEnd\bin\System.Web.Razor.dll
+C:\Azure DevOps\FrontEnd\bin\System.Web.WebPages.Deployment.dll
+C:\Azure DevOps\FrontEnd\bin\System.Web.WebPages.dll
+C:\Azure DevOps\FrontEnd\bin\System.Web.WebPages.Razor.dll
+C:\Azure DevOps\FrontEnd\bin\WebGrease.dll
+C:\Azure DevOps\FrontEnd\bin\BackEnd.pdb
+C:\Azure DevOps\FrontEnd\bin\BackEnd.dll.config
+C:\Azure DevOps\FrontEnd\bin\EntityFramework.xml
+C:\Azure DevOps\FrontEnd\bin\EntityFramework.SqlServer.xml
+C:\Azure DevOps\FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Azure DevOps\FrontEnd\bin\System.Web.Helpers.xml
+C:\Azure DevOps\FrontEnd\bin\System.Web.Mvc.xml
+C:\Azure DevOps\FrontEnd\bin\System.Web.Optimization.xml
+C:\Azure DevOps\FrontEnd\bin\System.Web.Razor.xml
+C:\Azure DevOps\FrontEnd\bin\System.Web.WebPages.xml
+C:\Azure DevOps\FrontEnd\bin\System.Web.WebPages.Deployment.xml
+C:\Azure DevOps\FrontEnd\bin\System.Web.WebPages.Razor.xml
+C:\Azure DevOps\FrontEnd\bin\Antlr3.Runtime.pdb
+C:\Azure DevOps\FrontEnd\bin\Newtonsoft.Json.xml
+C:\Azure DevOps\FrontEnd\bin\Microsoft.ApplicationInsights.xml
+C:\Azure DevOps\FrontEnd\bin\Microsoft.AI.DependencyCollector.xml
+C:\Azure DevOps\FrontEnd\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Azure DevOps\FrontEnd\bin\Microsoft.AI.WindowsServer.xml
+C:\Azure DevOps\FrontEnd\bin\Microsoft.AI.Web.xml
+C:\Azure DevOps\FrontEnd\obj\Debug\FrontEnd.csprojAssemblyReference.cache
+C:\Azure DevOps\FrontEnd\obj\Debug\FrontEnd.csproj.CoreCompileInputs.cache
+C:\Azure DevOps\FrontEnd\obj\Debug\FrontEnd.csproj.CopyComplete
+C:\Azure DevOps\FrontEnd\obj\Debug\FrontEnd.dll
+C:\Azure DevOps\FrontEnd\obj\Debug\FrontEnd.pdb
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\ApplicationInsights.config
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\FrontEnd.dll.config
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\FrontEnd.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\FrontEnd.pdb
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\csc.exe
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\csc.exe.config
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\csc.rsp
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\csi.exe
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\csi.exe.config
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\csi.rsp
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.AppContext.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Console.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.Compression.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.IO.Pipes.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Claims.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Threading.Thread.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.ValueTuple.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Xml.XPath.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\vbc.exe
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\vbc.exe.config
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\vbc.rsp
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Antlr3.Runtime.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\BackEnd.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\EntityFramework.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\EntityFramework.SqlServer.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.AI.Web.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.ApplicationInsights.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.SqlServer.Types.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Newtonsoft.Json.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\ReportViewerForMvc.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.Helpers.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.Mvc.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.Optimization.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.Razor.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.Deployment.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.Razor.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\WebGrease.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\BackEnd.pdb
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\BackEnd.dll.config
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\EntityFramework.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\EntityFramework.SqlServer.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.Helpers.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.Mvc.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.Optimization.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.Razor.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.Deployment.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\System.Web.WebPages.Razor.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Antlr3.Runtime.pdb
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Newtonsoft.Json.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.ApplicationInsights.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\bin\Microsoft.AI.Web.xml
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.csprojAssemblyReference.cache
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\obj\Debug\RdlCompile.cache
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\obj\Debug\RdlCompile.compiled
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.csproj.CoreCompileInputs.cache
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.csproj.CopyComplete
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.dll
+C:\Users\XPC\Downloads\EliteSeguridad\FrontEnd\obj\Debug\FrontEnd.pdb

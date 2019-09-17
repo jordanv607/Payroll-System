@@ -1,0 +1,42 @@
+﻿@model FrontEnd.Models.ParametroViewModel
+
+@{
+    ViewBag.Title = "Detalle parámetro";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Parámetro general</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.tabla)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tabla)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.campo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.campo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.idParametro}, new { @class = "btn btn-info" }) |
+    @Html.ActionLink("Regresar a la Lista", "Index", "Index", new { @class = "btn btn-default" })
+</p>

@@ -1,0 +1,85 @@
+﻿@model IEnumerable<FrontEnd.Models.PlanillaViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Planilla</h2>
+
+<p>
+    @Html.ActionLink("Generar Reporte por fecha", "ReportePlanillaFecha")<br />
+    @Html.ActionLink("Generar Reporte por cedula", "ReportePlanillaCedula")<br />
+    @Html.ActionLink("Calcular Planilla", "CalcularPlanilla")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.numeroIdentificacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombrePersona)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.primerApellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.segundoApellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.correoElectronico)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.numeroCuentaBancaria)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.salarioBruto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.totalDeducciones)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.salarioNeto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fechaPago)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.numeroIdentificacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombrePersona)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.primerApellido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.segundoApellido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.correoElectronico)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.numeroCuentaBancaria)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.salarioBruto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.totalDeducciones)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.salarioNeto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fechaPago)
+        </td>
+        
+    </tr>
+}
+
+</table>
